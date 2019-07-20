@@ -5,7 +5,7 @@ class Application
     
     time = Time.new(2019)
 
-    if time < 12
+    if time.hour < 12
       resp.write "Good Morning!"
     else 
       resp.write "Good Afternoon!"
